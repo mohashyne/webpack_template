@@ -60,15 +60,22 @@ To get started with this webpack configuration, follow these steps:
     ```
     webpack_template/
     ├── dist/
-    │   ├── main.js
+        ├── bundle.js
+    │   ├── index.html
+    ├── node_modules/
     ├── src/
+    │   ├── assets/
+    │   │    ├── webpack.svg
+    │   ├── styles/
+    │   │   ├── main.scss
     │   ├── index.js
+    ├── test.js
     ├── .gitignore
     ├── package-lock.json
+     
     ├── package.json
     ├── README.md
-    ├── webpack.config.js
-    └── yarn.lock
+    └── webpack.config.js
     ```
 
    ### Folder Structure Description <a name="folder-structure"></a>
