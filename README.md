@@ -35,6 +35,14 @@ To get started with this webpack configuration, follow these steps:
    git clone https://github.com/mohashyne/webpack_template.git
     ```
 
+   ### Install:
+
+   ```sh
+   cd webpack_template/
+    npm install
+    ```
+
+   
    ### Install the dependencies:
 
    ```sh
