@@ -73,7 +73,7 @@ To get started with this webpack configuration, follow these steps:
     Run the webpack build command:
        
         ```sh
-      npm run build
+         npm run build
         ```
     The bundled JavaScript file will be placed in the dist directory.
 
