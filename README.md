@@ -39,7 +39,29 @@ To get started with this webpack configuration, follow these steps:
 
    ```sh
    cd webpack_template/
-    npm install
+    npm init -y
+    npm install webpack webpack-cli --save-dev
+    ```
+    ### This is how the Package.json file will look like after installing the dependencies:
+    
+   ```sh
+    {
+     "name": "webpack-demo",
+     "version": "1.0.0",
+     "description": "",
+  
+      "private": true,
+      "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "MIT",
+      "devDependencies": {
+      "webpack": "^5.38.1",
+      "webpack-cli": "^4.7.2"
+      }
+      }
     ```
    
     ### 🔧 Usage <a name="usage"></a>
